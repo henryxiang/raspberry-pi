@@ -1,0 +1,23 @@
+{
+  "name": "raspberry-pi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "presentation": "reveal-md presentation/intro.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryxiang/raspberry-pi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henryxiang/raspberry-pi/issues"
+  },
+  "homepage": "https://github.com/henryxiang/raspberry-pi#readme",
+  "dependencies": {
+    "reveal-md": "^0.2.0"
+  }
+}
