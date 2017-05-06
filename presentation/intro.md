@@ -8,6 +8,10 @@ Python Programming with Raspberry Pi
 
 <img src="images/pi.png" width="20%" />
 
+<div style="font-size:70%;font-style:italic">Aaron Xiang</div>
+<div style="font-size:50%;font-style:italic">Computer Science Club</div>
+<div style="font-size:50%;font-style:italic">5/6/17</div>
+
 ---
 
 ### What is Raspberry Pi
@@ -48,22 +52,24 @@ Python Programming with Raspberry Pi
 ```python
 import RPi.GPIO as GPIO   ## Import GPIO library
 import time               ## Import time library
+
 GPIO.setmode(GPIO.BCM)    ## Use Broadcom pin numbering
 GPIO.setup(1, GPIO.OUT)   ## Setup GPIO Pin 1 to OUTPUT mode
 
 ## Blink LED 3 times
 for i in range(3):
-    GPIO.output(1,GPIO.HIGH)   ## Turn on GPIO pin 1
-    time.sleep(1000)           ## Wait 1 second
-    GPIO.output(1,GPIO.LOW)    ## Turn on GPIO pin 1
-    time.sleep(1000)           ## Wait 1 second
+    GPIO.output(1, GPIO.HIGH)   ## Turn on GPIO pin 1
+    time.sleep(1000)            ## Wait 1 second
+    GPIO.output(1, GPIO.LOW)    ## Turn on GPIO pin 1
+    time.sleep(1000)            ## Wait 1 second
 
 GPIO.cleanup()    ## Reset all GPIO pins
 ```
 
 ---
 
-### Ultrasonic Distance Sensor (HC-SR04)
+### Ultrasonic Distance Sensor 
+#### (HC-SR04)
 
 <img src="images/hc-sr04.png" width="70%" />
 
@@ -80,7 +86,6 @@ GPIO.cleanup()    ## Reset all GPIO pins
 Speed of sound: 343 m/s
 
 <img src="images/hc-sr04-eq1.png" />
-
 <img src="images/hc-sr04-eq2.png" />
 
 ---
@@ -97,7 +102,7 @@ Speed of sound: 343 m/s
 
 ---
 
-### Python Programming
+Distance Sensor Python Code
 
 <img src="images/hc-sr04-python.png" width="45%" />
 
