@@ -117,7 +117,7 @@ Speed of sound: 343 m/s
 
 Wifi: TP_Link-B710
 
-Wifi password: 62186388
+Wifi password: 62186377
 
 SSH password: raspberry
 
