@@ -17,8 +17,9 @@ Python Programming with Raspberry Pi
 ### What is Raspberry Pi
 
 * Credit card size computer               <!-- .element: class="fragment" -->
-* Linux Operating System                  <!-- .element: class="fragment" -->
-* General Purpose Input Output (GPIO)     <!-- .element: class="fragment" -->
+* Low cost ($35)                          <!-- .element: class="fragment" -->
+* Linux operating system                  <!-- .element: class="fragment" -->
+* General purpose input/output (GPIO)     <!-- .element: class="fragment" -->
 * Suited for IoT projects                 <!-- .element: class="fragment" -->
 
 ---
