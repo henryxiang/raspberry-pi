@@ -103,12 +103,28 @@ Speed of sound: 343 m/s
 
 ---
 
-Distance Sensor Python Code
+#### Distance Sensor Python Code
 
 <img src="images/hc-sr04-python.png" width="45%" />
 
+---
+
 --- 
 
-### Demo Time
+### Play Time
+
+Wifi: TP_Link-B710
+
+Wifi password: 62186388
+
+```bash
+ssh pi@raspberrypi
+```
+
+SSH password: raspberry
+
+---
+
+### The End
 
 ---
