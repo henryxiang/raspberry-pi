@@ -109,8 +109,6 @@ Speed of sound: 343 m/s
 
 ---
 
---- 
-
 ### Project Demo
 
 ---
@@ -121,11 +119,17 @@ Wifi: TP_Link-B710
 
 Wifi password: 62186388
 
+SSH password: raspberry
+
 ```bash
 ssh pi@raspberrypi
+
+cd projects
+python blink-led.py
+
 ```
 
-SSH password: raspberry
+
 
 ---
 
